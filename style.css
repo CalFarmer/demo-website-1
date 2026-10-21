@@ -1,13 +1,33 @@
-body {
+@import url('https://googleapis.com');
 
+body {
+    margin: 0px;
 }
 
 /* header */
 
 .head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(0 0 0 / 0.25);
+    color: rgba(0 0 0 / 0.8);
+    font-family: 'Roboto', sans-serif;
+}
 
+.title {
+    padding-left: 1em;
+    font-size: 24px;
 }
 
 .head-nav {
     
+}
+
+.nav-links {
+    display: flex;
+    list-style-type: none;
+    gap: 1em;
+    padding-right: 1em;
+
 }
