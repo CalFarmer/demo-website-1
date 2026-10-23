@@ -1,7 +1,20 @@
 @import url('https://googleapis.com');
 
+* {
+    box-sizing: border-box;
+}
+
+/* Color palette:
+    #5f0f40
+    #9a031e
+    #fb8b24
+    #e36414
+    #0f4c5c
+*/
+
 body {
     margin: 0px;
+    background-color: #0f4c5c; 
 }
 
 /* header */
@@ -10,8 +23,8 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: rgba(0 0 0 / 0.25);
-    color: rgba(0 0 0 / 0.8);
+    background-color: #9a031e;
+    color: #e36414;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -20,9 +33,9 @@ body {
     font-size: 24px;
 }
 
-.head-nav {
+/* .head-nav {} */
     
-}
+
 
 .nav-links {
     display: flex;
@@ -33,26 +46,26 @@ body {
 }
 
 .link a{
-    color: rgba(0 0 0 / 0.8);
+    color: #e36414;
     text-decoration: none;
     
 }
 
 .nav1 {
     :hover {
-        color: rgba(255, 255, 255, 0.5);
-        background-color: rgba(255 0 0);
+        color: #fb8b24;
+        background-color: #e36414;
     }
 }
 .nav2 {
     :hover {
-        color: rgba(255, 255, 255, 0.5);
-        background-color: rgba(0 0 255);
+        color: #fb8b24;
+        background-color: #e36414;
     }
 }
 .nav3 {
     :hover {
-        color: rgba(255, 255, 255, 0.5);
-        background-color: rgba(0 255 0);
+        color: #fb8b24;
+        background-color: #e36414;
     }
 }
