@@ -14,7 +14,7 @@
 
 body {
     margin: 0px;
-    background-color: #0f4c5c; 
+    background-color: #780000; 
 }
 
 /* header */
@@ -23,8 +23,8 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #9a031e;
-    color: #e36414;
+    background-color: #c1121f;
+    color: #fdf0d5;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -46,26 +46,26 @@ body {
 }
 
 .link a{
-    color: #e36414;
+    color: #fdf0d5;
     text-decoration: none;
     
 }
 
 .nav1 {
     :hover {
-        color: #fb8b24;
-        background-color: #e36414;
+        color: #c1121f;
+        background-color: #fdf0d5;
     }
 }
 .nav2 {
     :hover {
-        color: #fb8b24;
-        background-color: #e36414;
+        color: #c1121f;
+        background-color: #fdf0d5;
     }
 }
 .nav3 {
     :hover {
-        color: #fb8b24;
-        background-color: #e36414;
+        color: #c1121f;
+        background-color: #fdf0d5;
     }
 }
