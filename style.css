@@ -14,10 +14,10 @@
 
 body {
     margin: 0px;
-    background-color: #780000; 
+    background-color: whitesmoke; 
 }
 
-/* header */
+/* HEADER! */
 
 .head {
     display: flex;
@@ -51,21 +51,34 @@ body {
     
 }
 
-.nav1 {
+.nav1, .nav2, .nav3 { 
     :hover {
         color: #c1121f;
         background-color: #fdf0d5;
     }
 }
-.nav2 {
-    :hover {
-        color: #c1121f;
-        background-color: #fdf0d5;
+
+/* MEME! */
+
+
+
+
+
+
+
+
+/* BODY! */
+
+.body {
+    display: flex;
+    justify-content: center;
+    padding-top: 2em;
+    .one {
+        height: 10em;
+        width: 75%;
+        border: 8px solid #003049;
+        background-color: #669bbc;
     }
+
 }
-.nav3 {
-    :hover {
-        color: #c1121f;
-        background-color: #fdf0d5;
-    }
-}
+
