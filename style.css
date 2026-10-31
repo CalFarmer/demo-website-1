@@ -60,7 +60,19 @@ body {
 
 /* MEME! */
 
-
+.meme {
+    display: flex;
+    justify-content: center;
+    margin: 1em;
+    border: 2px solid black;
+    flex-direction: column;
+    .fire{
+        background-color: red;
+    }
+    .instruct {
+        
+    }
+}
 
 
 
@@ -72,7 +84,7 @@ body {
 .body {
     display: flex;
     justify-content: center;
-    padding-top: 2em;
+    padding-top: 1em;
     .one {
         height: 10em;
         width: 75%;
